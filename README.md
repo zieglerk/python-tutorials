@@ -18,6 +18,17 @@ the newer Python3. We use Python3, where the latest stable release is
 are called *modules* in python
 
 ## Standard Library (Batteries Included)
+### math
+It provides access to the mathematical functions defined by the C standard.
+
+### sys
+This module provides access to some variables used or maintained by the interpreter and to functions that interact strongly with the interpreter. It is always available.
+
+### traceback
+This module provides a standard interface to extract, format and print stack traces of Python programs. It exactly mimics the behavior of the Python interpreter when it prints a stack trace.
+
+### array 
+This module defines an object type which can compactly represent an array of basic values: characters, integers, floating point numbers. Arrays are sequence types and behave very much like lists, except that the type of objects stored in them is constrained.
 
 ## Favorite Non-Standard Packages
 
@@ -33,6 +44,9 @@ References:
 
 ### scikit-learn
 machine learning, built to work well with NumPy and SciPy
+
+### matplotlib
+Matplotlib is a Python 2D plotting library which produces publication quality figures in a variety of hardcopy formats and interactive environments across platforms.
 
 # Other Tutorials/Exercises
 
