@@ -106,3 +106,5 @@ Keras is a high-level neural networks API, written in Python and capable of runn
 - [X] pull every jupyter notebook with number from python-for-data-science
 - [ ] check the setup part for anaconda & friends (let's say as number 0)
 
+for numpy
+- improve didactical structures. Parts are redundant (e.g. operations), parts dont follow perfect logic order (broadcasting)
