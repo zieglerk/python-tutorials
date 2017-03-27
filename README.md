@@ -12,9 +12,17 @@ Prerequisites
 
 # Leitfaden/Guideline
 
-+-- 
-+--
-
++--Motivation
+   Installation Instruction
+   Programming Environments
++--Data Types
+   Control Flow
+   Modules
++--package NumPy
++--package SciPy
++--package scikit-learn
++--package matplotlib (Python plotting, object-oriented)
++--package pandas (Python Data Analysis Library)
 
 
 # Version
