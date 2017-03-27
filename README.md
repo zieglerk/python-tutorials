@@ -1,12 +1,21 @@
 # python-tutorials
 
 This repository contains
-- setup instructions for a minimal python environment and 
-- Jupyter notebooks to train and test the basic concepts of python
+- instructions to setup a minimal python environment and 
+- Jupyter notebooks to introduce the basic concepts of python
+- Quizzes to test the understanding of said concepts
 
-Prerequisite
+Prerequisites
+- access to a computing environment with installation rights
 - programming experience, i.e. familiarity with basic concepts like
   control flow and data structures
+
+# Leitfaden/Guideline
+
++-- 
++--
+
+
 
 # Version
 
