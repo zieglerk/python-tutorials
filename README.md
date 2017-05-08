@@ -1,7 +1,7 @@
 # python-tutorials
 
 This repository contains
-- instructions to setup a minimal python environment and 
+- instructions to setup a minimal python environment and
 - Jupyter notebooks to introduce the basic concepts of python
 - Quizzes to test the understanding of said concepts
 
@@ -44,16 +44,16 @@ This module provides access to some variables used or maintained by the interpre
 ### traceback
 This module provides a standard interface to extract, format and print stack traces of Python programs. It exactly mimics the behavior of the Python interpreter when it prints a stack trace.
 
-### array 
+### array
 This module defines an object type which can compactly represent an array of basic values: characters, integers, floating point numbers. Arrays are sequence types and behave very much like lists, except that the type of objects stored in them is constrained.
 
 ### time
 This module provides various time-related functions.
 
 ### os
-This module provides a portable way of using operating system dependent functionality. 
+This module provides a portable way of using operating system dependent functionality.
 
-### collections 
+### collections
 This module implements specialized container datatypes providing alternatives to Python’s general purpose built-in containers, dict, list, set, and tuple.
 
 ### itertools
@@ -90,6 +90,8 @@ Keras is a high-level neural networks API, written in Python and capable of runn
 
 # Other Tutorials/Exercises
 
+- [Scipy Lecture Notes](http://www.scipy-lectures.org/) for Python,
+  NumPy, Matplotlib, Scipy (with exercises)
 - [Code Challenge](https://github.com/pybites/challenges/tree/master/01)
 - [Python Tutorial](https://docs.python.org/3.6/tutorial/index.html) at
   python.org (quite complete and extensive; probably to read selectively)
