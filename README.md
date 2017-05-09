@@ -94,7 +94,9 @@ Keras is a high-level neural networks API, written in Python and capable of runn
   NumPy, Matplotlib, Scipy (with exercises)
 - [Code Challenge](https://github.com/pybites/challenges/tree/master/01)
 - [Python Tutorial](https://docs.python.org/3.6/tutorial/index.html) at
-  python.org (quite complete and extensive; probably to read selectively)
+  python.org (quite complete and extensive; probably to read
+  selectively)
+- basic [Python Class](https://developers.google.com/edu/python/) by Google
 - DataCamp has two Python Courses (for Data Science):
   [Intro](https://www.datacamp.com/courses/intro-to-python-for-data-science)
   and
