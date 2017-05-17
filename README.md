@@ -1,9 +1,9 @@
 # python-tutorials
 
 This repository contains
-- instructions to setup a minimal python environment and
-- Jupyter notebooks to introduce the basic concepts of python
-- Quizzes to test the understanding of said concepts
+- *installation instructions* for a minimal python environment
+- *Jupyter notebooks* to introduce the basic concepts of python
+- *Quizzes* to test the understanding of said concepts
 
 Prerequisites
 - access to a computing environment with installation rights
@@ -12,17 +12,19 @@ Prerequisites
 
 # Leitfaden/Guideline
 
-+--Motivation
-   Installation Instruction
-   Programming Environments
-+--Data Types
-   Control Flow
-   Modules
-+--package NumPy
-+--package SciPy
-+--package scikit-learn
-+--package matplotlib (Python plotting, object-oriented)
-+--package pandas (Python Data Analysis Library)
+ :
+
+    +--Motivation
+       Installation Instruction
+       Programming Environments
+    +--Data Types
+       Control Flow
+       Modules
+    +--package NumPy
+    +--package SciPy
+    +--package scikit-learn
+    +--package matplotlib (Python plotting, object-oriented)
+    +--package pandas (Python Data Analysis Library)
 
 
 # Version
@@ -31,8 +33,81 @@ There are currently two major versions of Python. The older Python2 and
 the newer Python3. We use Python3, where the latest stable release is
 3.6.0 (as of 12 Mar 2017).
 
+1. download latest Anacond3-installer from
+   http://continuum.io/downloads and :
+
+	   $ bash Anaconda3-1.9.1-Linux-x86_64.sh
+
+(optionally) with target `~/local/share/anaconda3`.
+
+2. the installer then suggests to prepend the path in .bashrc. (You
+   may already have this, e.g. via .profile)
+3. Next, we'll add three channels to the default one (in this order) :
+
+    $ conda config --add channels conda-forge
+	$ conda config --add channels defaults
+	$ conda config --add channels r
+	$ conda config --add channels bioconda
+
+   `bioconda` is for bioinformatics (what's your requirement?) and
+   will receive the highest priority. `r` is
+   required for bioinformatics and contains moduls for the GNU R
+   programming language. The `defaults` channel already contains
+   plenty of packages (?TODO list?). Finally, `conda-forge` contains
+   several community-build packages that are not already in the
+   `default` channel.
+
+Here's the full [package list](https://docs.continuum.io/anaconda/pkg-docs).
+
+The installer is for the full package coming with the `anaconda`
+meta-package. Let's update it with :
+
+    $ conda update anaconda
+
+Anaconda is not only the name of the python-distribution, but also the
+name of its largest meta-package. To maximize compatibility (and
+minimize maintenance effort), we have the following priorities
+
+1. packages from the standard library (see below)
+2. packages from the anaconda meta-package (?packages marked as "In
+   Installer" [here](https://docs.continuum.io/anaconda/pkg-docs)?)
+3. packages from conda's default channel, like `keras` (but not in the
+   default installer's full list of packages?)
+4. packages from selected additional conda channels (`r`, `bioconda`)
+
+## Update
+
+ :
+
+     $ conda update conda
+	 $ conda update anaconda
+
 # Packages
 are called *modules* in python
+
+## Favorite Non-Standard Packages
+
+### NumPy
+fast numerical computing, in particular with large arrays and matrices; is part of SciPy, but can also be loaded individually
+
+References:
+- Nicolas P. Rougier, [From Python to
+  Numpy](http://www.labri.fr/perso/nrougier/from-python-to-numpy/)
+
+### SciPy
+(large) scientific computing library, based on NumPy arrays (and including NumPy)
+
+### scikit-learn
+machine learning, built to work well with NumPy and SciPy
+
+### pandas
+Pandas is a Python package providing fast, flexible, and expressive data structures designed to make working with “relational” or “labeled” data both easy and intuitive
+
+### matplotlib
+Matplotlib is a Python 2D plotting library which produces publication quality figures in a variety of hardcopy formats and interactive environments across platforms.
+
+### keras
+Keras is a high-level neural networks API, written in Python and capable of running on top of either TensorFlow or Theano. It was developed with a focus on enabling fast experimentation. Being able to go from idea to result with the least possible delay is key to doing good research.
 
 ## Standard Library (Batteries Included)
 ### math
@@ -61,32 +136,6 @@ This module implements a number of iterator building blocks inspired by construc
 
 ### multiprocessing
 multiprocessing is a package that supports spawning processes using an API similar to the threading module.
-
-
-
-## Favorite Non-Standard Packages
-
-### NumPy
-fast numerical computing, in particular with large arrays and matrices; is part of SciPy, but can also be loaded individually
-
-References:
-- Nicolas P. Rougier, [From Python to
-  Numpy](http://www.labri.fr/perso/nrougier/from-python-to-numpy/)
-
-### SciPy
-(large) scientific computing library, based on NumPy arrays (and including NumPy)
-
-### scikit-learn
-machine learning, built to work well with NumPy and SciPy
-
-### pandas
-Pandas is a Python package providing fast, flexible, and expressive data structures designed to make working with “relational” or “labeled” data both easy and intuitive
-
-### matplotlib
-Matplotlib is a Python 2D plotting library which produces publication quality figures in a variety of hardcopy formats and interactive environments across platforms.
-
-### keras
-Keras is a high-level neural networks API, written in Python and capable of running on top of either TensorFlow or Theano. It was developed with a focus on enabling fast experimentation. Being able to go from idea to result with the least possible delay is key to doing good research.
 
 # Other Tutorials/Exercises
 
