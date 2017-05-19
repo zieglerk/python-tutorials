@@ -12,7 +12,7 @@ Prerequisites
 
 # Leitfaden/Guideline
 
- :
+  :
 
     +--Motivation
        Installation Instruction
@@ -154,6 +154,24 @@ multiprocessing is a package that supports spawning processes using an API simil
   Tutorial](http://www.afterhoursprogramming.com/tutorial/Python/Overview/)
 - LearnPython.org has an interactive [Python
   Tutorial](http://www.learnpython.org/)
+
+# Books
+- Swaroop, [A Byte of Python](https://python.swaroopch.com/), CC-BY-SA.
+  (Free pdf and epub download, audience: programming beginners)
+- Allen B. Downey, [Think
+  Python](http://greenteapress.com/wp/think-python-2e/), 2nd edition,
+  2015. (Cave: 1st edition uses python2. Free pdf and html download,
+  sample code available on webpage and github, audience: python
+  beginners with programming experience)
+
+# Free Online Courses
+- Codecademy's [Python track](https://www.codecademy.com/learn/python)
+- Udacity's [Intro to Computer
+  Science](https://www.udacity.com/course/intro-to-computer-science--cs101)
+
+# Exercises/Generic Projects
+- Karan Goel's [Mega Project List](https://github.com/karan/Projects)
+
 
 # TODOs
 - [X] pull every jupyter notebook with number from python-for-data-science
