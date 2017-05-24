@@ -174,8 +174,9 @@ multiprocessing is a package that supports spawning processes using an API simil
 
 
 # TODOs
-- [X] pull every jupyter notebook with number from python-for-data-science
-- [ ] check the setup part for anaconda & friends (let's say as number 0)
-
-for numpy
-- improve didactical structures. Parts are redundant (e.g. operations), parts dont follow perfect logic order (broadcasting)
+- [ ] check the setup part for anaconda & friends (let's say as number
+  0)
+- [ ] split every notebook into mandatory/optional part
+- [ ] for numpy: improve didactical structures. Parts are redundant
+  (e.g. operations), parts dont follow perfect logic order
+  (broadcasting)
