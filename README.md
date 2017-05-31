@@ -1,4 +1,3 @@
-[Introduction](./0.2-Anaconda_Installation.ipynb)
 # python-tutorials
 
 This repository contains
