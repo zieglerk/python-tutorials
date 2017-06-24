@@ -169,7 +169,8 @@ multiprocessing is a package that supports spawning processes using an API simil
 - Udacity's [Intro to Computer
   Science](https://www.udacity.com/course/intro-to-computer-science--cs101)
 
-# Exercises/Generic Projects
+# Quizzes/Exercises/Generic Projects
+- [15 single-choice questions](https://quiz.triplebyte.com/) by TripleByte
 - Karan Goel's [Mega Project List](https://github.com/karan/Projects)
 
 
