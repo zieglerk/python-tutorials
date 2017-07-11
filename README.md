@@ -156,6 +156,7 @@ multiprocessing is a package that supports spawning processes using an API simil
   Tutorial](http://www.learnpython.org/)
 
 # Books
+
 - Swaroop, [A Byte of Python](https://python.swaroopch.com/), CC-BY-SA.
   (Free pdf and epub download, audience: programming beginners)
 - Allen B. Downey, [Think
@@ -164,12 +165,22 @@ multiprocessing is a package that supports spawning processes using an API simil
   sample code available on webpage and github, audience: python
   beginners with programming experience)
 
-# Free Online Courses
+# (Free) Courses
+
 - Codecademy's [Python track](https://www.codecademy.com/learn/python)
 - Udacity's [Intro to Computer
   Science](https://www.udacity.com/course/intro-to-computer-science--cs101)
+- MIT's 6.001
+  [Introduction to Computer Science and Programming in Python](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/)
+  by Ana Bell, Eric Grimson, and John Guttag; "for students with little
+  or no programming experience"; available on [edX](https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-10?utm_source=OCW&utm_medium=CHP&utm_campaign=OCW)
+- MIT's 6.002
+  [Introduction to Computational Thinking and Data Science](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/)
+  by Ana Bell, Eric Grimson, and John Guttag; continuation of MIT
+  6.001; archived on [edX](https://www.edx.org/course/introduction-computational-thinking-data-mitx-6-00-2x-5?utm_source=OCW&utm_medium=CHP&utm_campaign=OCW)
 
 # Quizzes/Exercises/Generic Projects
+
 - [15 single-choice questions](https://quiz.triplebyte.com/) by TripleByte
 - Karan Goel's [Mega Project List](https://github.com/karan/Projects)
 
