@@ -104,7 +104,9 @@ machine learning, built to work well with NumPy and SciPy
 Pandas is a Python package providing fast, flexible, and expressive data structures designed to make working with “relational” or “labeled” data both easy and intuitive
 
 ### matplotlib
-Matplotlib is a Python 2D plotting library which produces publication quality figures in a variety of hardcopy formats and interactive environments across platforms.
+Matplotlib is a Python 2D plotting library which produces publication
+quality figures in a variety of hardcopy formats and interactive
+environments across platforms. Here's a short [introduction](http://pbpython.com/effective-matplotlib.html).
 
 ### keras
 Keras is a high-level neural networks API, written in Python and capable of running on top of either TensorFlow or Theano. It was developed with a focus on enabling fast experimentation. Being able to go from idea to result with the least possible delay is key to doing good research.
