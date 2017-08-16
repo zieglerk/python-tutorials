@@ -186,8 +186,9 @@ multiprocessing is a package that supports spawning processes using an API simil
 # Quizzes/Exercises/Generic Projects
 
 - [15 single-choice questions](https://quiz.triplebyte.com/) by TripleByte
-- Karan Goel's [Mega Project List](https://github.com/karan/Projects)
-
+- [Mega Project List](https://github.com/karan/Projects) by Karan Goel
+- [100 days of algorithms](https://medium.com/100-days-of-algorithms)
+  by Tomáš Bouda with [github repository](https://github.com/coells/100days)
 
 # TODOs
 - [ ] check the setup part for anaconda & friends (let's say as number
