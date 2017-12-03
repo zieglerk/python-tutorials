@@ -12,8 +12,6 @@ Prerequisites
 
 # Leitfaden/Guideline
 
-  :
-
     +--Motivation
        Installation Instruction
        Programming Environments
@@ -30,11 +28,11 @@ Prerequisites
 # Version
 
 There are currently two major versions of Python. The older Python2 and
-the newer Python3. We use Python3, where the latest stable release is
-3.6.0 (as of 12 Mar 2017).
+the newer Python3. We use the latter, where the latest stable release is
+3.6.3 (as of 03 Oct 2017).
 
-1. download latest Anacond3-installer from
-   http://continuum.io/downloads and :
+1. download the latest Anaconda3-installer from
+   http://continuum.io/download and
 
 	   $ bash Anaconda3-1.9.1-Linux-x86_64.sh
 
@@ -44,10 +42,10 @@ the newer Python3. We use Python3, where the latest stable release is
    may already have this, e.g. via .profile)
 3. Next, we'll add three channels to the default one (in this order) :
 
-    $ conda config --add channels conda-forge
-	$ conda config --add channels defaults
-	$ conda config --add channels r
-	$ conda config --add channels bioconda
+       $ conda config --add channels conda-forge
+	   $ conda config --add channels defaults
+	   $ conda config --add channels r
+	   $ conda config --add channels bioconda
 
    `bioconda` is for bioinformatics (what's your requirement?) and
    will receive the highest priority. `r` is
