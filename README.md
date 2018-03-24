@@ -32,11 +32,12 @@ the newer Python3. We use the latter, where the latest stable release is
 3.6.3 (as of 03 Oct 2017).
 
 1. download the latest Anaconda3-installer from
-   http://continuum.io/download and
+   http://continuum.io/download and launch it with
 
 	   $ bash Anaconda3-1.9.1-Linux-x86_64.sh
 
-(optionally) with target `~/local/share/anaconda3`.
+You need to agree to the license agreement and may (optionally)
+specify a target directory (default is `~/anaconda3`, my choice is `~/local/share/anaconda3`).
 
 2. the installer then suggests to prepend the path in .bashrc. (You
    may already have this, e.g. via .profile)
