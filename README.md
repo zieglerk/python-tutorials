@@ -29,9 +29,9 @@ Prerequisites
 
 There are currently two major versions of Python. The older Python2 and
 the newer Python3. We use the latter, where the latest stable release is
-3.6.3 (as of 03 Oct 2017).
+3.6.5 (as of 28 Mar 2018).
 
-1. download the latest Anaconda3-installer from
+1. download the latest (64-bit) Anaconda3-installer from
    http://continuum.io/download and launch it with
 
 	   $ bash Anaconda3-1.9.1-Linux-x86_64.sh
