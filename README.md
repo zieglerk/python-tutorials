@@ -108,7 +108,19 @@ quality figures in a variety of hardcopy formats and interactive
 environments across platforms. Here's a short [introduction](http://pbpython.com/effective-matplotlib.html).
 
 ### keras
-Keras is a high-level neural networks API, written in Python and capable of running on top of either TensorFlow or Theano. It was developed with a focus on enabling fast experimentation. Being able to go from idea to result with the least possible delay is key to doing good research.
+Keras is a high-level neural networks API, written in Python and
+capable of running on top of either TensorFlow or Theano. It was
+developed with a focus on enabling fast experimentation. Being able to
+go from idea to result with the least possible delay is key to doing
+good research.
+
+## Further Non-Standard Libraries
+
+### qutip
+
+to simulate quantum systems. Very short
+[introduction](https://www.linuxjournal.com/content/taking-python-next-level)
+by Joey Bernard.
 
 ## Standard Library (Batteries Included)
 ### math
