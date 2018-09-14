@@ -10,6 +10,8 @@ Prerequisites
 - programming experience, i.e. familiarity with basic concepts like
   control flow and data structures
 
+
+
 # Leitfaden/Guideline
 
     +--Motivation
@@ -23,6 +25,7 @@ Prerequisites
     +--package scikit-learn
     +--package matplotlib (Python plotting, object-oriented)
     +--package pandas (Python Data Analysis Library)
+
 
 
 # Version
@@ -74,6 +77,7 @@ minimize maintenance effort), we have the following priorities
    default installer's full list of packages?)
 4. packages from selected additional conda channels (`r`, `bioconda`)
 
+
 ## Update
 
  :
@@ -81,8 +85,38 @@ minimize maintenance effort), we have the following priorities
      $ conda update conda
 	 $ conda update anaconda
 
+
+
+# Development
+
+## Command-Line Interface
+
+- (default) python interactive shell
+- MYCHOICE ipython shell
+
+## Jupyter Notebook
+
+web-application for interactive python worksheets
+
+## Integrated Development Environment
+
+- MYCOICE spyder, a quick [introduction](https://www.linuxjournal.com/content/introducing-spyder-scientific-python-development-environment) by Joey Bernard
+- pycharm
+- Eclipse with PyDev plugin
+- Emacs with ...
+
+Note: Spyder is already available in the standard installation, but if
+   we want/need more advanced profiling, there's
+
+   	   $ conda config --add channels spyder-ide
+	   $ conda install -c spyder-ide spyder-line-profiler
+	   $ conda install -c spyder-ide spyder-memory-profiler
+
+
+
 # Packages
 are called *modules* in python
+
 
 ## Favorite Non-Standard Packages
 
@@ -114,6 +148,7 @@ developed with a focus on enabling fast experimentation. Being able to
 go from idea to result with the least possible delay is key to doing
 good research.
 
+
 ## Further Non-Standard Libraries
 
 ### qutip
@@ -122,7 +157,9 @@ to simulate quantum systems. Very short
 [introduction](https://www.linuxjournal.com/content/taking-python-next-level)
 by Joey Bernard.
 
+
 ## Standard Library (Batteries Included)
+
 ### math
 It provides access to the mathematical functions defined by the C standard.
 
@@ -150,6 +187,8 @@ This module implements a number of iterator building blocks inspired by construc
 ### multiprocessing
 multiprocessing is a package that supports spawning processes using an API similar to the threading module.
 
+
+
 # Other Tutorials/Exercises
 
 - [Scipy Lecture Notes](http://www.scipy-lectures.org/) for Python,
@@ -170,6 +209,7 @@ multiprocessing is a package that supports spawning processes using an API simil
 - [https://unsupervisedmethods.com/over-150-of-the-best-machine-learning-nlp-and-python-tutorials-ive-found-ffce2939bd78](Over 150 of the Best Machine Learning, NLP, and Python Tutorials I’ve Found)
 
 
+
 # Books
 
 - Swaroop, [A Byte of Python](https://python.swaroopch.com/), CC-BY-SA.
@@ -179,6 +219,8 @@ multiprocessing is a package that supports spawning processes using an API simil
   2015. (Cave: 1st edition uses python2. Free pdf and html download,
   sample code available on webpage and github, audience: python
   beginners with programming experience)
+
+
 
 # (Free) Courses
 
@@ -194,12 +236,16 @@ multiprocessing is a package that supports spawning processes using an API simil
   by Ana Bell, Eric Grimson, and John Guttag; continuation of MIT
   6.001; archived on [edX](https://www.edx.org/course/introduction-computational-thinking-data-mitx-6-00-2x-5?utm_source=OCW&utm_medium=CHP&utm_campaign=OCW)
 
+
+
 # Quizzes/Exercises/Generic Projects
 
 - [15 single-choice questions](https://quiz.triplebyte.com/) by TripleByte
 - [Mega Project List](https://github.com/karan/Projects) by Karan Goel
 - [100 days of algorithms](https://medium.com/100-days-of-algorithms)
   by Tomáš Bouda with [github repository](https://github.com/coells/100days)
+
+
 
 # TODOs
 - [ ] check the setup part for anaconda & friends (let's say as number
