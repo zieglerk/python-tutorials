@@ -159,6 +159,9 @@ by Joey Bernard.
 
 
 ## Standard Library (Batteries Included)
+see the complete list at https://docs.python.org/3/library/
+
+
 
 ### math
 It provides access to the mathematical functions defined by the C standard.
@@ -219,7 +222,8 @@ multiprocessing is a package that supports spawning processes using an API simil
   2015. (Cave: 1st edition uses python2. Free pdf and html download,
   sample code available on webpage and github, audience: python
   beginners with programming experience)
-
+- Idris2016
+- McKinney2012
 
 
 # (Free) Courses
