@@ -59,7 +59,7 @@ specify a target directory (default is `~/anaconda3`, my choice is `~/local/shar
    several community-build packages that are not already in the
    `default` channel.
 
-Here's the full [package list](https://docs.continuum.io/anaconda/pkg-docs).
+Here's the full [package list](https://docs.anaconda.com/anaconda/packages/py3.6_linux-64/).
 
 The installer is for the full package coming with the `anaconda`
 meta-package. Let's update it with :
@@ -72,10 +72,33 @@ minimize maintenance effort), we have the following priorities
 
 1. packages from the standard library (see below)
 2. packages from the anaconda meta-package (?packages marked as "In
-   Installer" [here](https://docs.continuum.io/anaconda/pkg-docs)?)
-3. packages from conda's default channel, like `keras` (but not in the
+   Installer"
+   [here](https://docs.anaconda.com/anaconda/packages/py3.6_linux-64/ ?)
+3. packages from conda's `default` channel, like `keras` (but not in the
    default installer's full list of packages?)
-4. packages from selected additional conda channels (`r`, `bioconda`)
+4. ONLY IF NECESSARY packages from selected additional conda channels
+   (`r`, `bioconda`)
+
+## Minimal Example Installation
+   (only packages that are *not* in the standard library)
+
+favorites from the standard library
+   - datetime
+   - csv
+
+installed in default installation
+   - conda (I)
+   - jupyter (I)
+   - pandas (I)
+   - matplotlib (I)
+   - seaborn (I)
+   - scikit-learn (I)
+   - scipy (I)
+   - numpy (I)
+
+available from default channel
+   - keras
+
 
 
 ## Update
@@ -85,7 +108,21 @@ minimize maintenance effort), we have the following priorities
      $ conda update conda
 	 $ conda update anaconda
 
+this confuses me (and others), so the current recommendation in
+anaconda's blog[1] for "What 95% of People Want" is :
 
+    $ conda update --all
+	$ conda
+
+[1]: https://www.anaconda.com/blog/developer-blog/keeping-anaconda-date/
+
+Optionally :
+
+    $ conda remove anaconda
+
+And if things break :
+
+    $ conda clean --all
 
 # Development
 
