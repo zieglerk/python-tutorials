@@ -5,14 +5,14 @@ This repository contains
 - *Jupyter notebooks* to introduce the basic concepts of python
 - *Quizzes* to test the understanding of said concepts
 
-Prerequisites
+## Prerequisites
 - access to a computing environment with installation rights
 - programming experience, i.e. familiarity with basic concepts like
   control flow and data structures
 
+## Leitfaden for a possible course
 
 
-# Leitfaden/Guideline
 
     +--Motivation
        Installation Instruction
@@ -28,11 +28,15 @@ Prerequisites
 
 
 
-# Version
+# Setup
+
+## Choosing the proper installation candidate
 
 There are currently two major versions of Python. The older Python2 and
 the newer Python3. We use the latter, where the latest stable release is
 3.6.5 (as of 28 Mar 2018).
+
+## Installation Recipe
 
 1. download the latest (64-bit) Anaconda3-installer from
    http://continuum.io/download and launch it with
@@ -59,12 +63,18 @@ specify a target directory (default is `~/anaconda3`, my choice is `~/local/shar
    several community-build packages that are not already in the
    `default` channel.
 
-Here's the full [package list](https://docs.anaconda.com/anaconda/packages/py3.6_linux-64/).
+## Updating
 
 The installer is for the full package coming with the `anaconda`
 meta-package. Let's update it with :
 
     $ conda update anaconda
+
+
+
+# Modules/Packages
+
+Here's the full [package list](https://docs.anaconda.com/anaconda/packages/py3.6_linux-64/).
 
 Anaconda is not only the name of the python-distribution, but also the
 name of its largest meta-package. To maximize compatibility (and
@@ -79,24 +89,29 @@ minimize maintenance effort), we have the following priorities
 4. ONLY IF NECESSARY packages from selected additional conda channels
    (`r`, `bioconda`)
 
-## Minimal Example Installation
-   (only packages that are *not* in the standard library)
+## Minimal Package List
+   (for reference, when you have to reproduce your environment outside
+   of anaconda, e.g. in `SageMath`)
 
-favorites from the standard library
-   - datetime
-   - csv
+### favorites from the standard library
+   - `datetime`
+   - `csv`
 
-installed in default installation
-   - conda (I)
-   - jupyter (I)
-   - pandas (I)
-   - matplotlib (I)
-   - seaborn (I)
-   - scikit-learn (I)
-   - scipy (I)
-   - numpy (I)
+### non-standard packages in conda's default installation
+   - interface
+     - `conda` (I)
+     - `jupyter` (I)
+   - math
+     - `numpy` (I)
+     - `scipy` (I)
+   - data analysis
+     - `pandas` (I)
+     - `scikit-learn` `sklearn` (I)
+   - visualization
+     - `matplotlib` (I)
+     - `seaborn` (I)
 
-available from default channel
+### non-standard packages in the default channel
    - keras
 
 
