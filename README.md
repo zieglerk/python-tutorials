@@ -98,12 +98,15 @@ minimize maintenance effort), we have the following priorities
    - `csv`
 
 ### non-standard packages in conda's default installation
+    marked "In Installer" (I)
+
    - interface
      - `conda` (I)
      - `jupyter` (I)
    - math
      - `numpy` (I)
      - `scipy` (I)
+	 - `statsmodels` (I)
    - data analysis
      - `pandas` (I)
      - `scikit-learn` `sklearn` (I)
@@ -112,6 +115,7 @@ minimize maintenance effort), we have the following priorities
      - `seaborn` (I)
 
 ### non-standard packages in the default channel
+
    - keras
 
 
