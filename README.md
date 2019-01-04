@@ -116,8 +116,14 @@ minimize maintenance effort), we have the following priorities
 
 ### non-standard packages in the default channel
 
-   - keras
+   - `keras`
 
+
+### OUTOFSCOPE alternative packages
+    merely listed here for reference, because they might pop up repeatedly
+
+   - [pybrain](http://pybrain.org/) by Jürgen Schmidhuber et.al. (latest release 0.3 dates from 18
+     Nov 2009)
 
 
 ## Update
