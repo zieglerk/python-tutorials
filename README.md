@@ -3,7 +3,9 @@
 This repository contains
 - *installation instructions* for a minimal python environment
 - *Jupyter notebooks* to introduce the basic concepts of python
-- *Quizzes* to test the understanding of said concepts
+- *quizzes* to test the understanding of said concepts
+
+It is related to my follow-up repository [data-science-tutorials](https://github.com/zieglerk/data-science-tutorials).
 
 ## Prerequisites
 - access to a computing environment with installation rights
@@ -11,8 +13,6 @@ This repository contains
   control flow and data structures
 
 ## Leitfaden for a possible course
-
-
 
     +--Motivation
        Installation Instruction
@@ -26,28 +26,24 @@ This repository contains
     +--package matplotlib (Python plotting, object-oriented)
     +--package pandas (Python Data Analysis Library)
 
-
-
 # Setup
 
 ## Choosing the proper installation candidate
 
-There are currently two major versions of Python. The older Python2 and
-the newer Python3. We use the latter, where the latest stable release is
-3.6.5 (as of 28 Mar 2018).
+We use [Python 3](https://www.python.org/) via the [Anaconda distribution](https://www.anaconda.com/).
 
-## Installation Recipe
+## Installation Recipe (linux)
 
 1. download the latest (64-bit) Anaconda3-installer from
    http://continuum.io/download and launch it with
 
 	   $ bash Anaconda3-1.9.1-Linux-x86_64.sh
 
-You need to agree to the license agreement and may (optionally)
-specify a target directory (default is `~/anaconda3`, my choice is `~/local/share/anaconda3`).
-
-2. the installer then suggests to prepend the path in .bashrc. (You
-   may already have this, e.g. via .profile)
+2. The installer will then ask ...
+   - for your agreement on the license agreement
+   - for a target directory (this is optional; default is `~/anaconda3`, my choice is `~/local/share/anaconda3`)
+   - to run the `conda init` script to check/set some paths (obviously also optional) and if necessary add them to `.bashrc` (You may already have this, e.g. via .profile)
+   
 3. Next, we'll add three channels to the default one (in this order) :
 
        $ conda config --add channels conda-forge
@@ -192,8 +188,8 @@ References:
 ### SciPy
 (large) scientific computing library, based on NumPy arrays (and including NumPy)
 
-### scikit-learn
-machine learning, built to work well with NumPy and SciPy
+### scikit-learn scikit-learn-intelex
+machine learning, built to work well with NumPy and SciPy -- along with the [Intel extension](https://intel.github.io/scikit-learn-intelex/) for acceleration
 
 ### pandas
 Pandas is a Python package providing fast, flexible, and expressive data structures designed to make working with “relational” or “labeled” data both easy and intuitive
