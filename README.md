@@ -43,7 +43,7 @@ We use [Python 3](https://www.python.org/) via the [Anaconda distribution](https
    - for your agreement on the license agreement
    - for a target directory (this is optional; default is `~/anaconda3`, my choice is `~/local/share/anaconda3`)
    - to run the `conda init` script to check/set some paths (obviously also optional) and if necessary add them to `.bashrc` (You may already have this, e.g. via .profile)
-   
+
 3. Next, we'll add three channels to the default one (in this order) :
 
        $ conda config --add channels conda-forge
@@ -319,3 +319,4 @@ This module provides a standard interface to extract, format and print stack tra
 - [ ] for numpy: improve didactical structures. Parts are redundant
   (e.g. operations), parts dont follow perfect logic order
   (broadcasting)
+- [ ] compare to Christin Seifert's minimal tutorial at https://github.com/chseifert/tutorials/blob/master/PythonTutorial/PythonTutorial.ipynb
